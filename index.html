@@ -222,45 +222,42 @@
         /* Typing Effect */
 
         .typing{
-            margin-top:10px;
+    margin-top:10px;
 
-            font-size:1.2rem;
+    font-size:1.2rem;
 
-            opacity:0.9;
+    opacity:0.9;
 
-            overflow:hidden;
-            white-space:nowrap;
+    overflow:hidden;
 
-            border-right:
-            3px solid #00d9ff;
+    white-space:nowrap;
 
-            width:0;
-            max-width:100%;
+    border-right:3px solid #00d9ff;
 
-            animation:
-            typing 4s steps(40,end) forwards,
-            blink 0.8s infinite;
-        }
+    display:inline-block;
 
-        @keyframes typing{
+    width:0;
 
-            from{
-                width:0;
-            }
+    animation:
+    typing 4s steps(40,end) forwards,
+    blink 0.8s infinite;
+}
 
-            to{
-                width:100%;
-            }
+@keyframes typing{
+    from{
+        width:0;
+    }
 
-        }
+    to{
+        width:43ch;
+    }
+}
 
-        @keyframes blink{
-
-            50%{
-                border-color:transparent;
-            }
-
-        }
+@keyframes blink{
+    50%{
+        border-color:transparent;
+    }
+}
 
         /* Buttons */
 
@@ -548,7 +545,7 @@
     <nav>
 
         <div class="logo">
-            Lucky
+            Lucky Banduni
         </div>
 
         <ul>
@@ -576,12 +573,11 @@
         <img
             src="profile.jng"
             class="profile-pic"
-            alt="Lucky Profile"
         >
 
         <h1>
             Hi, I'm
-            <span>Lucky Banduni</span>
+            <span>Lucky</span>
         </h1>
 
         <p class="typing">
