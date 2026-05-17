@@ -35,24 +35,23 @@
         /* Background */
 
         .bg{
-           position:fixed;
-           inset:0;
+    position:fixed;
+    inset:0;
 
-           background:url('profile.jpeg');
-          
-           background-size:cover;
+    background-image:url('profile.jpg');
 
-           background-position:center 20%;
+    background-size:cover;
 
-           background-repeat:no-repeat;
+    background-position:center 15%;
 
-           filter:blur(8px) brightness(0.4);
- 
-           transform:scale(1.1);
-   
-           z-index:-3;
+    background-repeat:no-repeat;
+
+    filter:blur(8px) brightness(0.35);
+
+    transform:scale(1.08);
+
+    z-index:-3;
 }
-
            
 
         .overlay{
@@ -173,22 +172,25 @@
         /* Profile Image */
 
         .profile-pic{
-            width:190px;
-            height:190px;
+    width:190px;
+    height:190px;
 
-            border-radius:50%;
-            object-fit:cover;
-            object-position:center 10%;
-            border:3px solid rgba(0,217,255,0.7);
-            box-shadow:
-            0 0 20px rgba(0,217,255,0.5),
-            0 0 60px rgba(0,217,255,0.2);
+    border-radius:50%;
+
+    object-fit:cover;
+
+    object-position:center 15%;
+
+    border:3px solid rgba(0,217,255,0.7);
+
+    box-shadow:
+    0 0 20px rgba(0,217,255,0.5),
+    0 0 60px rgba(0,217,255,0.2);
 
     margin-bottom:25px;
 
     animation:float 4s ease-in-out infinite;
 }
-
         @keyframes float{
 
             0%{
